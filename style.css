@@ -6,13 +6,10 @@
 
 body {
     background-color: #ccc;
-}
-
-.wrap {
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -68,4 +65,21 @@ body {
 
 input {
     display: none;
+}
+
+input:checked + label {
+    width: 600px;
+}
+
+.card[for=c1] {
+    background-image: url(pika.jfif);
+}
+.card[for=c2] {
+    background-image: url(buba.jfif);
+}
+.card[for=c3] {
+    background-image: url(char.jfif);
+}
+.card[for=c4] {
+    background-image: url(squir.jfif);
 }
